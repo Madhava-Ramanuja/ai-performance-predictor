@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Predictor</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <div id="grades">
+        <div id="navbar">
+            <img src="icon.png" alt="predictor image">
+            <h2 id="heading">Student Performance Predictor</h2>
+            <i><h2 id="quote">Plan your <span id="future">Future</span></h2></i>
+        </div>
+        <div id="container">
+            <div class="attribute">
+                <i><h2 id="A1">Secured Marks</h2></i>
+                <div id="course-container" class="course-credit-pair">
+                    <div class="course-row">
+                        <label>Course 1</label>
+                        <select class="grade">
+                            <option value="0-50">F</option>
+                            <option value="51-55">C</option>
+                            <option value="56-60">B</option>
+                            <option value="61-70">B+</option>
+                            <option value="71-80">A</option>
+                            <option value="81-90">A+</option>
+                            <option value="91-100">O</option>
+                        </select> 
+                        <label>Credits</label>
+                        <select class="credit">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="course-row">
+                        <label>Course 2</label>
+                        <select class="grade">
+                            <option value="0-50">F</option>
+                            <option value="51-55">C</option>
+                            <option value="56-60">B</option>
+                            <option value="61-70">B+</option>
+                            <option value="71-80">A</option>
+                            <option value="81-90">A+</option>
+                            <option value="91-100">O</option>
+                        </select> 
+                        <label>Credits</label>
+                        <select class="credit">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="course-row">
+                        <label>Course 3</label>
+                        <select class="grade">
+                            <option value="0-50">F</option>
+                            <option value="51-55">C</option>
+                            <option value="56-60">B</option>
+                            <option value="61-70">B+</option>
+                            <option value="71-80">A</option>
+                            <option value="81-90">A+</option>
+                            <option value="91-100">O</option>
+                        </select> 
+                        <label>Credits</label>
+                        <select class="credit">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="course-row">
+                        <label>Course 4</label>
+                        <select class="grade">
+                            <option value="0-50">F</option>
+                            <option value="51-55">C</option>
+                            <option value="56-60">B</option>
+                            <option value="61-70">B+</option>
+                            <option value="71-80">A</option>
+                            <option value="81-90">A+</option>
+                            <option value="91-100">O</option>
+                        </select> 
+                        <label>Credits</label>
+                        <select class="credit">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="course-row">
+                        <label>Course 5</label>
+                        <select class="grade">
+                            <option value="0-50">F</option>
+                            <option value="51-55">C</option>
+                            <option value="56-60">B</option>
+                            <option value="61-70">B+</option>
+                            <option value="71-80">A</option>
+                            <option value="81-90">A+</option>
+                            <option value="91-100">O</option>
+                        </select> 
+                        <label>Credits</label>
+                        <select class="credit">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+                <button id="add-course">Add Course</button>
+            </div>
+            <div class="attribute">
+                <i><h2 id="A2">Attendance</h2></i>
+                <br>
+                <label>Attendance</label>
+                <select id="attendance-select">
+                    <option value=">50">>50%</option>
+                    <option value=">65">>65%</option>
+                    <option value=">75">>75%</option>
+                    <option value=">85">>85%</option>
+                    <option value=">95">>95%</option>
+                </select>
+            </div>
+            <div class="attribute">
+                <i><h2 id="A3">CGPA</h2></i>
+                <br>
+                <label>CGPA</label>
+                <select id="cgpa-select">
+                    <option value="5~6">5 ~ 6</option>
+                    <option value="6~7">6 ~ 7</option>
+                    <option value="7~8">7 ~ 8</option>
+                    <option value="8~9">8 ~ 9</option>
+                    <option value="9~10">9 ~ 10</option>
+                </select>
+            </div>
+        </div>
+        <div id="footer">
+            <i><button id="calculate">My Performance</button></i>
+            <div id="results-container" style="margin-top: 20px; display: block;"></div>
+        </div>
+    </div>
+    <script src="page.js"></script>
+</body>
+</html>

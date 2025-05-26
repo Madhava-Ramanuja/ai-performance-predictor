@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+#grades {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+#navbar{
+    display: flex;
+    /* background-color: lightseagreen;*/ 
+    background-color:transparent; 
+    backdrop-filter: blur(8px);
+    align-items: center;
+    height: 60px;
+    border-bottom: 2px solid black;
+    padding-left: 15px;
+}
+#heading{
+    color: #722f37;
+    margin-left: 10px;
+    font-family: 'poppins', sans-serif; 
+    font-size: 30px;
+}
+#quote{
+    color: #f2de9b;
+    margin-left: 800px;
+}
+#future{
+    color: #f2de9b;
+}
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 40px 20px;
+    gap: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+}
+.attribute {
+    background-color: #eee7d8;
+    border-radius: 15px;
+    padding: 20px;
+    color: black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.3s ease;
+}
+.attribute:hover {
+    transform: translateY(-5px);
+}
+.attribute h2 {
+    background-color: #d74222;
+    color: #a3bcb8;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.attribute label {
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+}
+.attribute select {
+    padding: 8px;
+    border-radius: 5px;
+    color: #333;
+}
+#add-course {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #91e8d0;
+    color: rgb(58, 49, 49);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    align-self: center;
+    margin: 10px 0;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+#add-course:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+.course-row{
+    padding-top: 10px;
+}
+#footer {
+    margin-top: 40px;
+    text-align: center;
+}
+#calculate {
+    padding-top: 30px;
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: #0b2b5b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+#calculate:hover {
+    background-color:  #e6816b;
+    color: #09203d;
+    transform: scale(1.05);
+}
+/* Add these styles to your page.css file */
+
+#results-container {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    border: 2px solid #d74222;
+}
+
+#results-container h2 {
+    color: #722f37;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #d74222;
+}
+
+.results-content {
+    padding: 15px;
+}
+
+.results-content p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.recommendation {
+    background-color: #f2de9b;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.recommendation h3 {
+    color: #0b2b5b;
+    margin-bottom: 10px;
+}
+
+.recommendation ul {
+    padding-left: 20px;
+}
+
+.recommendation li {
+    margin-bottom: 5px;
+    color: #333;
+}
